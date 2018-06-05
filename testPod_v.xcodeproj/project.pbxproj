@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F4DF44E20C6692300F9877E /* TestPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4DF44E20C6692300F9877E /* testPod_v.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testPod_v.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4DF45120C6692300F9877E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F4DF45320C6692300F9877E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F4DF45620C6692300F9877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F4DF45820C6692300F9877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F4DF45B20C6692300F9877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F4DF45D20C6692300F9877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F4DF46220C6692400F9877E /* TestPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4DF46220C6692400F9877E /* testPod_vTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPod_vTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4DF46620C6692400F9877E /* TestPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodTests.swift; sourceTree = "<group>"; };
 		6F4DF46820C6692400F9877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F4DF46D20C6692400F9877E /* TestPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4DF46D20C6692400F9877E /* testPod_vUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPod_vUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4DF47120C6692400F9877E /* TestPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodUITests.swift; sourceTree = "<group>"; };
 		6F4DF47320C6692400F9877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		6F4DF44F20C6692300F9877E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F4DF44E20C6692300F9877E /* TestPod.app */,
-				6F4DF46220C6692400F9877E /* TestPodTests.xctest */,
-				6F4DF46D20C6692400F9877E /* TestPodUITests.xctest */,
+				6F4DF44E20C6692300F9877E /* testPod_v.app */,
+				6F4DF46220C6692400F9877E /* testPod_vTests.xctest */,
+				6F4DF46D20C6692400F9877E /* testPod_vUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F4DF44D20C6692300F9877E /* TestPod */ = {
+		6F4DF44D20C6692300F9877E /* testPod_v */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4DF47620C6692400F9877E /* Build configuration list for PBXNativeTarget "TestPod" */;
+			buildConfigurationList = 6F4DF47620C6692400F9877E /* Build configuration list for PBXNativeTarget "testPod_v" */;
 			buildPhases = (
 				6F4DF44A20C6692300F9877E /* Sources */,
 				6F4DF44B20C6692300F9877E /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = TestPod;
+			name = testPod_v;
 			productName = TestPod;
-			productReference = 6F4DF44E20C6692300F9877E /* TestPod.app */;
+			productReference = 6F4DF44E20C6692300F9877E /* testPod_v.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6F4DF46120C6692400F9877E /* TestPodTests */ = {
+		6F4DF46120C6692400F9877E /* testPod_vTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4DF47920C6692400F9877E /* Build configuration list for PBXNativeTarget "TestPodTests" */;
+			buildConfigurationList = 6F4DF47920C6692400F9877E /* Build configuration list for PBXNativeTarget "testPod_vTests" */;
 			buildPhases = (
 				6F4DF45E20C6692400F9877E /* Sources */,
 				6F4DF45F20C6692400F9877E /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				6F4DF46420C6692400F9877E /* PBXTargetDependency */,
 			);
-			name = TestPodTests;
+			name = testPod_vTests;
 			productName = TestPodTests;
-			productReference = 6F4DF46220C6692400F9877E /* TestPodTests.xctest */;
+			productReference = 6F4DF46220C6692400F9877E /* testPod_vTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6F4DF46C20C6692400F9877E /* TestPodUITests */ = {
+		6F4DF46C20C6692400F9877E /* testPod_vUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F4DF47C20C6692400F9877E /* Build configuration list for PBXNativeTarget "TestPodUITests" */;
+			buildConfigurationList = 6F4DF47C20C6692400F9877E /* Build configuration list for PBXNativeTarget "testPod_vUITests" */;
 			buildPhases = (
 				6F4DF46920C6692400F9877E /* Sources */,
 				6F4DF46A20C6692400F9877E /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				6F4DF46F20C6692400F9877E /* PBXTargetDependency */,
 			);
-			name = TestPodUITests;
+			name = testPod_vUITests;
 			productName = TestPodUITests;
-			productReference = 6F4DF46D20C6692400F9877E /* TestPodUITests.xctest */;
+			productReference = 6F4DF46D20C6692400F9877E /* testPod_vUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6F4DF44920C6692300F9877E /* Build configuration list for PBXProject "TestPod" */;
+			buildConfigurationList = 6F4DF44920C6692300F9877E /* Build configuration list for PBXProject "testPod_v" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F4DF44D20C6692300F9877E /* TestPod */,
-				6F4DF46120C6692400F9877E /* TestPodTests */,
-				6F4DF46C20C6692400F9877E /* TestPodUITests */,
+				6F4DF44D20C6692300F9877E /* testPod_v */,
+				6F4DF46120C6692400F9877E /* testPod_vTests */,
+				6F4DF46C20C6692400F9877E /* testPod_vUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		6F4DF46420C6692400F9877E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F4DF44D20C6692300F9877E /* TestPod */;
+			target = 6F4DF44D20C6692300F9877E /* testPod_v */;
 			targetProxy = 6F4DF46320C6692400F9877E /* PBXContainerItemProxy */;
 		};
 		6F4DF46F20C6692400F9877E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6F4DF44D20C6692300F9877E /* TestPod */;
+			target = 6F4DF44D20C6692300F9877E /* testPod_v */;
 			targetProxy = 6F4DF46E20C6692400F9877E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -465,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPod.app/TestPod";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testPod_v.app/testPod_v";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPod.app/TestPod";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testPod_v.app/testPod_v";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F4DF44920C6692300F9877E /* Build configuration list for PBXProject "TestPod" */ = {
+		6F4DF44920C6692300F9877E /* Build configuration list for PBXProject "testPod_v" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F4DF47420C6692400F9877E /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F4DF47620C6692400F9877E /* Build configuration list for PBXNativeTarget "TestPod" */ = {
+		6F4DF47620C6692400F9877E /* Build configuration list for PBXNativeTarget "testPod_v" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F4DF47720C6692400F9877E /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F4DF47920C6692400F9877E /* Build configuration list for PBXNativeTarget "TestPodTests" */ = {
+		6F4DF47920C6692400F9877E /* Build configuration list for PBXNativeTarget "testPod_vTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F4DF47A20C6692400F9877E /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F4DF47C20C6692400F9877E /* Build configuration list for PBXNativeTarget "TestPodUITests" */ = {
+		6F4DF47C20C6692400F9877E /* Build configuration list for PBXNativeTarget "testPod_vUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F4DF47D20C6692400F9877E /* Debug */,
