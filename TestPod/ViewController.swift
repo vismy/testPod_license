@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.red
         print("test pod")
-        
+        print("add tag")
         
         
     }
