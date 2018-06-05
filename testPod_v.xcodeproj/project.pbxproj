@@ -77,7 +77,7 @@
 		6F4DF44520C6692300F9877E = {
 			isa = PBXGroup;
 			children = (
-				6F4DF45020C6692300F9877E /* TestPod */,
+				6F4DF45020C6692300F9877E /* TestPod_v */,
 				6F4DF46520C6692400F9877E /* TestPodTests */,
 				6F4DF47020C6692400F9877E /* TestPodUITests */,
 				6F4DF44F20C6692300F9877E /* Products */,
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F4DF45020C6692300F9877E /* TestPod */ = {
+		6F4DF45020C6692300F9877E /* TestPod_v */ = {
 			isa = PBXGroup;
 			children = (
 				6F4DF45120C6692300F9877E /* AppDelegate.swift */,
@@ -104,7 +104,7 @@
 				6F4DF45A20C6692300F9877E /* LaunchScreen.storyboard */,
 				6F4DF45D20C6692300F9877E /* Info.plist */,
 			);
-			path = TestPod;
+			path = TestPod_v;
 			sourceTree = "<group>";
 		};
 		6F4DF46520C6692400F9877E /* TestPodTests */ = {
