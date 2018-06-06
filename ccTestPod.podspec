@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ccTestPod"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ccTestPod"
   s.swift-version = "3.2"
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/vismy/testPod_license.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/vismy/testPod_license.git", :tag => "0.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
