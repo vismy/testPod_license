@@ -16,8 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ccTestPod"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "ccTestPod"
+  s.swift-version = "3.2"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -78,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/vismy/testPod_license.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/vismy/testPod_license.git", :tag => "0.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ccTestPod/*"
+  s.source_files  = "cvTestPod/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
